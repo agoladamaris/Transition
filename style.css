@@ -1,0 +1,29 @@
+body{
+background-color: rgb(193, 243, 13);
+}
+.transition{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(103, 19, 193);
+}
+.transition:hover{
+    font-size: 2rem;
+    background-color: burlywood;
+    transition-duration: all 3ms;
+    text-align: center;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    /* transition-delay: 3s; */
+    transition-property: transform;
+}
+.trans{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(118, 5, 5);
+    transform-origin: 3s;
+    transition-duration: 2s;
+}
